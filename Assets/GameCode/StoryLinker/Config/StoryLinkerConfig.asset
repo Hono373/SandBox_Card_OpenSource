@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a66dc768fff86c842b92ef96a864888c, type: 3}
+  m_Name: StoryLinkerConfig
+  m_EditorClassIdentifier: 
+  graphViewBG: {fileID: 7433441132597879392, guid: 3031eecf10c573c49835f10825d7fabc, type: 3}
+  CreateTo: {fileID: 102900000, guid: a12b85a89dd651d4e8a0a8e96cf66384, type: 3}
+  DebugMode: 0
+  ShowFullTextInfo: 0

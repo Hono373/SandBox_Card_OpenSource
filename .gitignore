@@ -1,0 +1,47 @@
+# Unity 生成目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# 自动生成的 IDE 工程文件
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity 崩溃报告
+sysinfo.txt
+crashlytics-build.properties
+
+# 构建产物
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# 本快照不含的场景与资源目录（若日后补充，请移除以下排除）
+/Assets/Scenes/
+/Assets/GameRes/
+/Assets/Resources/
+/Assets/StreamingAssets/
+/Assets/Spine/
+/Assets/GameDataBase/

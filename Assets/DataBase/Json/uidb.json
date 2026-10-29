@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Scene_Setting",
+    "Name": {
+      "CN": "设定",
+      "EN": "Setting",
+      "JP": "--"
+    }
+  },
+  {
+    "Key": "Scene_Check",
+    "Name": {
+      "CN": "确认",
+      "EN": "Check",
+      "JP": "--"
+    }
+  }
+]

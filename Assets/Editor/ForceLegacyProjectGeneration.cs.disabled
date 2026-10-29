@@ -1,0 +1,18 @@
+using UnityEditor;
+
+/// <summary>
+/// 强制 Unity 使用 Legacy 项目生成风格（标准 .sln 格式），而非 Sdk 风格（.slnx 格式）。
+/// 
+/// .slnx 是 VS2022 17.12+ / .NET 9 SDK 引入的 XML 格式，VS Code 的 C# Dev Kit 不支持解析。
+/// 本机安装了 .NET 9 SDK，导致 com.unity.ide.visualstudio 默认生成 .slnx，引发调试卡死。
+/// 
+/// 原理：通过 AssetPostprocessor 回调 OnSelectingCSProjectStyle 返回 "Legacy"，
+/// 覆盖 GeneratorFactory 中的 GeneratorStyle.SDK 默认选择。
+/// </summary>
+public class ForceLegacyProjectGeneration : AssetPostprocessor
+{
+    public static string OnSelectingCSProjectStyle()
+    {
+        return "Legacy";
+    }
+}

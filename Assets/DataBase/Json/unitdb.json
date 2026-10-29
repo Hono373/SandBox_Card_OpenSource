@@ -1,0 +1,87 @@
+[
+  {
+    "Key": "Lumiya",
+    "MaxHP": 24,
+    "Atk": 7,
+    "Def": 4,
+    "Spd": 8,
+    "Name": {
+      "CN": "露米娅",
+      "EN": "Lumiya",
+      "JP": "ルミア"
+    },
+    "Describe": {
+      "CN": "”“",
+      "EN": "”“",
+      "JP": "”“"
+    }
+  },
+  {
+    "Key": "Nam",
+    "MaxHP": 23,
+    "Atk": 5,
+    "Def": 6,
+    "Spd": 5,
+    "Name": {
+      "CN": "娜姆",
+      "EN": "Nam",
+      "JP": "ナム"
+    },
+    "Describe": {
+      "CN": "”“",
+      "EN": "”“",
+      "JP": "”“"
+    }
+  },
+  {
+    "Key": "Eirene",
+    "MaxHP": 19,
+    "Atk": 6,
+    "Def": 6,
+    "Spd": 6,
+    "Name": {
+      "CN": "Eirene",
+      "EN": "Eirene",
+      "JP": "Eirene"
+    },
+    "Describe": {
+      "CN": "”“",
+      "EN": "”“",
+      "JP": "”“"
+    }
+  },
+  {
+    "Key": "Solider",
+    "MaxHP": 40,
+    "Atk": 11,
+    "Def": 8,
+    "Spd": 7,
+    "Name": {
+      "CN": "Solider",
+      "EN": "Solider",
+      "JP": "Solider"
+    },
+    "Describe": {
+      "CN": "”“",
+      "EN": "”“",
+      "JP": "”“"
+    }
+  },
+  {
+    "Key": "Man",
+    "MaxHP": 25,
+    "Atk": 8,
+    "Def": 5,
+    "Spd": 6,
+    "Name": {
+      "CN": "Man",
+      "EN": "Man",
+      "JP": "Man"
+    },
+    "Describe": {
+      "CN": "”“",
+      "EN": "”“",
+      "JP": "”“"
+    }
+  }
+]

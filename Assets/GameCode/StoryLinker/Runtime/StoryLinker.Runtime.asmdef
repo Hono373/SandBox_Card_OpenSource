@@ -1,0 +1,16 @@
+{
+    "name": "StoryLinker.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:268ad562f939bc346a555d36de27efa3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

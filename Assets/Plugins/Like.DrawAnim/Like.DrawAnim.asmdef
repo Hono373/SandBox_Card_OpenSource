@@ -1,0 +1,16 @@
+{
+    "name": "Like.DrawAnim",
+    "rootNamespace": "Like.DrawAnim",
+    "references": [
+        "GUID:7e638331b6750a24e9e0b6012aec40b6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

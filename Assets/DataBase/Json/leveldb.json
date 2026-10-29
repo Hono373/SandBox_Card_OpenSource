@@ -1,0 +1,128 @@
+[
+  {
+    "Key": "0",
+    "Name": {
+      "CN": "0",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Describe": {
+      "CN": "---",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Dedicated": true,
+    "Weight": 0,
+    "Flag": [],
+    "Event": {
+      "$type": "StoryEvent",
+      "CMD": "",
+      "ID": "0"
+    }
+  },
+  {
+    "Key": "1",
+    "Name": {
+      "CN": "1",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Describe": {
+      "CN": "Rooster",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Dedicated": false,
+    "Weight": 1,
+    "Flag": [],
+    "Event": {
+      "$type": "BattleEvent",
+      "CMD": "",
+      "ID": "0"
+    }
+  },
+  {
+    "Key": "2",
+    "Name": {
+      "CN": "2",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Describe": {
+      "CN": "Hen",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Dedicated": false,
+    "Weight": 1,
+    "Flag": [],
+    "Event": {
+      "$type": "BattleEvent",
+      "CMD": "",
+      "ID": "0"
+    }
+  },
+  {
+    "Key": "3",
+    "Name": {
+      "CN": "3",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Describe": {
+      "CN": "Rooster,Hen",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Dedicated": false,
+    "Weight": 1,
+    "Flag": [],
+    "Event": {
+      "$type": "BattleEvent",
+      "CMD": "",
+      "ID": "0"
+    }
+  },
+  {
+    "Key": "4",
+    "Name": {
+      "CN": "4",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Describe": {
+      "CN": "Solider",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Dedicated": false,
+    "Weight": 1,
+    "Flag": [],
+    "Event": {
+      "$type": "BattleEvent",
+      "CMD": "",
+      "ID": "0"
+    }
+  },
+  {
+    "Key": "5",
+    "Name": {
+      "CN": "5",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Describe": {
+      "CN": "Solider,Man",
+      "EN": "---",
+      "JP": "---"
+    },
+    "Dedicated": false,
+    "Weight": 10,
+    "Flag": [],
+    "Event": {
+      "$type": "BattleEvent",
+      "CMD": "",
+      "ID": "0"
+    }
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "key": "Strike",
+    "cardName": "打击",
+    "cost": {
+      "$type": "CostValue",
+      "cost": 1
+    },
+    "interactive": {
+      "$type": "BattleCardInteractive_Choice"
+    },
+    "graphic": {
+      "color": 1,
+      "type": 1,
+      "rarity": 1,
+      "sprite": "Card_Strike"
+    },
+    "choiceRule": {
+      "range": 1,
+      "conditions": []
+    },
+    "timings": [
+      {
+        "timingEnum": 0,
+        "pileEnum": 4,
+        "skills": [
+          {
+            "noSource": false,
+            "rangeRule": {
+              "active": false,
+              "baseRange": 0,
+              "conditions": []
+            },
+            "countRule": {
+              "$type": "FixedCount",
+              "count": 1
+            },
+            "effect": {
+              "$type": "Damage",
+              "value": 7,
+              "effectAnimData": {
+                "isAoe": false,
+                "sprite": "slash",
+                "duration": 0.5
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "InFlame",
+    "cardName": "燃烧",
+    "cost": {
+      "$type": "CostValue",
+      "cost": 1
+    },
+    "interactive": {
+      "$type": "BattleCardInteractive_Hold"
+    },
+    "graphic": {
+      "color": 1,
+      "type": 3,
+      "rarity": 3,
+      "sprite": "Card_InFlame"
+    },
+    "choiceRule": {
+      "range": 3,
+      "conditions": []
+    },
+    "timings": [
+      {
+        "timingEnum": 0,
+        "pileEnum": 4,
+        "skills": [
+          {
+            "noSource": false,
+            "rangeRule": {
+              "active": false,
+              "baseRange": 0,
+              "conditions": []
+            },
+            "countRule": {
+              "$type": "FixedCount",
+              "count": 1
+            },
+            "effect": {
+              "$type": "ModifierAdd",
+              "key": "Strength",
+              "layer": 2,
+              "only": false,
+              "effectAnimData": {
+                "isAoe": false,
+                "sprite": "",
+                "duration": 0.5
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Whirlwind",
+    "cardName": "旋风斩",
+    "cost": {
+      "$type": "CostX"
+    },
+    "interactive": {
+      "$type": "BattleCardInteractive_Hold"
+    },
+    "graphic": {
+      "color": 1,
+      "type": 1,
+      "rarity": 2,
+      "sprite": "Card_whirlwind"
+    },
+    "choiceRule": {
+      "range": 1,
+      "conditions": []
+    },
+    "timings": [
+      {
+        "timingEnum": 0,
+        "pileEnum": 4,
+        "skills": [
+          {
+            "noSource": false,
+            "rangeRule": {
+              "active": false,
+              "baseRange": 0,
+              "conditions": []
+            },
+            "countRule": {
+              "$type": "CountXUseCost",
+              "count": 0
+            },
+            "effect": {
+              "$type": "Damage",
+              "value": 7,
+              "effectAnimData": {
+                "isAoe": true,
+                "sprite": "slash",
+                "duration": 0.5
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "SwordBoomerang",
+    "cardName": "回旋镖",
+    "cost": {
+      "$type": "CostValue",
+      "cost": 1
+    },
+    "interactive": {
+      "$type": "BattleCardInteractive_Hold"
+    },
+    "graphic": {
+      "color": 1,
+      "type": 1,
+      "rarity": 2,
+      "sprite": "Card_red_attack_Psd"
+    },
+    "choiceRule": {
+      "range": 0,
+      "conditions": []
+    },
+    "timings": [
+      {
+        "timingEnum": 0,
+        "pileEnum": 4,
+        "skills": [
+          {
+            "noSource": false,
+            "rangeRule": {
+              "active": false,
+              "baseRange": 0,
+              "conditions": []
+            },
+            "countRule": {
+              "$type": "FixedCount",
+              "count": 3
+            },
+            "effect": {
+              "$type": "Damage",
+              "value": 4,
+              "effectAnimData": {
+                "isAoe": false,
+                "sprite": "slash",
+                "duration": 0.5
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

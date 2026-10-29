@@ -1,0 +1,31 @@
+[
+  {
+    "Key": 0,
+    "Player": "Lumiya",
+    "PlayerHP": 24,
+    "Story": "0",
+    "Task": "0",
+    "InitialDeck": [
+      {
+        "Key": "SingleAttack",
+        "Numb": 10
+      },
+      {
+        "Key": "SurvivalKnowledge",
+        "Numb": 10
+      },
+      {
+        "Key": "SingleAttack+",
+        "Numb": 10
+      },
+      {
+        "Key": "Blood",
+        "Numb": 10
+      },
+      {
+        "Key": "GetCard3",
+        "Numb": 4
+      }
+    ]
+  }
+]
